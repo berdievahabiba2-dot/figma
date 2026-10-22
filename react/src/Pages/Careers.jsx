@@ -1,152 +1,204 @@
 import React from 'react'
-import img from '../Companent/55.png'
 import './Careers.css'
-import ico from '../Companent/77.png'
-import icon from '../Companent/IconC.png'
-import icon1 from '../Companent/Icon1.png'
-import icon2 from '../Companent/Icon2.png'
-import icon3 from '../Companent/Icon3.png'
-import photo3 from '../Companent/Logo.png'
-import pho from '../Companent/Sub.png'
+import img from '../Companent/Elis.png'
+import img1 from '../Companent/Rec.png'
+import img3 from '../Companent/Group1.png'
+
+
 
 const Careers = () => {
   return (
     <div>
-      <div className="afta">
-      <div className="career-card">
-        <div className="career-text">
-          <h1>Build the Future with Us</h1>
-          <p>
-            We’re a team of builders, thinkers, and explorers using AI,
-            machine learning, and blockchain to solve meaningful problems.
-          </p>
-          <button>Explore Open Positions</button>
+
+      <div className='fig'>
+        <div className='figm'>
+          <h3>Дизайнер </h3>
+        <h2><span>Ернар</span> Ибрагимов</h2>
+        <p>Работаю дизайнером с 1999 года.Был опыт в газетах, журналах, типографиях, рекламных агентствах, издательских домах... Порядка 8 лет, занимаюсь логотипами и фирменными стилями.</p><br />
+        <p>Figma  Adobe  photoshop   Adobe illustrator    Corel draw</p><br />
+        <p>Adobe After Effects  HTML/CSS</p><br />
+        <p className='pop'>Показать подробную информацию</p>
         </div>
-        <img src={img} alt="Build the Future with Us" />
+        <img src={img} alt="" />
       </div>
+      <h5 className='pip'>Мой ворки</h5>
+
+      <div className='vorc'>
+        <div className='teg'>
+          <button>+</button>
+          <h3>Создать ворк</h3>
+        </div>
+
+        <div className='teg'>
+          <img src={img1} alt="" />
+          <h6>Дизайн сайта</h6>
+          <p>50 000 тенге</p>
+        </div>
+
+        <div className='teg'>
+          <img src={img1} alt="" />
+          <h6>Дизайн сайта</h6>
+          <p>50 000 тенге</p>
+        </div>
+
+        <div className='teg'>
+          <img src={img1} alt="" />
+          <h6>Дизайн сайта</h6>
+          <p>50 000 тенге</p>
+        </div>
+
+        <div className='teg'>
+          <img src={img1} alt="" />
+          <h6>Дизайн сайта</h6>
+          <p>50 000 тенге</p>
+        </div>
+
+        <div className='teg'>
+          <img src={img1} alt="" />
+          <h6>Дизайн сайта</h6>
+          <p>50 000 тенге</p>
+        </div>
+
+        <div className='teg'>
+          <img src={img1} alt="" />
+          <h6>Дизайн сайта</h6>
+          <p>50 000 тенге</p>
+        </div>
+
+        <div className='teg'>
+          <img src={img1} alt="" />
+          <h6>Дизайн сайта</h6>
+          <p>50 000 тенге</p>
+        </div>
+
+        <div className='teg'>
+          <img src={img1} alt="" />
+          <h6>Дизайн сайта</h6>
+          <p>50 000 тенге</p>
+        </div>
+
+        <div className='teg'>
+          <img src={img1} alt="" />
+          <h6>Дизайн сайта</h6>
+          <p>50 000 тенге</p>
+        </div>
+
+        <div className='teg'>
+          <img src={img1} alt="" />
+          <h6>Дизайн сайта</h6>
+          <p>50 000 тенге</p>
+        </div>
+
+         <div className='teg'>
+          <img src={img1} alt="" />
+          <h6>Дизайн сайта</h6>
+          <p>50 000 тенге</p>
+        </div>
+      </div>
+      <button className='sh'>Загрузить еще</button>
+      <div className='otz'>
+        <h3>Отзывы</h3>
+      <p>Положительные (65) <span>Отрицательные(10)</span></p>
+      </div>
+
+      <div className='elit'>
+
+        <div className='eget'>
+          <div className='sit'>
+            <button></button>
+          <div>
+            <h3>Никита Евреев</h3>
+            <img src={img3} alt="" />
+          </div>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus tincidunt eget eu, eget commodo condimentum non, fringilla fermentum. Morbi sed enim facilisis metus pretium leo, mauris. In egestas cursus orci dignissim in lectus nulla. </p>
+        </div>
+
+        <div className='eget'>
+          <div className='sit'>
+            <button></button>
+          <div>
+            <h3>Никита Евреев</h3>
+            <img src={img3} alt="" />
+          </div>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus tincidunt eget eu, eget commodo condimentum non, fringilla fermentum. Morbi sed enim facilisis metus pretium leo, mauris. In egestas cursus orci dignissim in lectus nulla. </p>
+        </div>
+        <div className='eget'>
+          <div className='sit'>
+            <button></button>
+          <div>
+            <h3>Никита Евреев</h3>
+            <img src={img3} alt="" />
+          </div>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus tincidunt eget eu, eget commodo condimentum non, fringilla fermentum. Morbi sed enim facilisis metus pretium leo, mauris. In egestas cursus orci dignissim in lectus nulla. </p>
+        </div>
+        <div className='eget'>
+          <div className='sit'>
+            <button></button>
+          <div>
+            <h3>Никита Евреев</h3>
+            <img src={img3} alt="" />
+          </div>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus tincidunt eget eu, eget commodo condimentum non, fringilla fermentum. Morbi sed enim facilisis metus pretium leo, mauris. In egestas cursus orci dignissim in lectus nulla. </p>
+        </div>
+        <div className='eget'>
+          <div className='sit'>
+            <button></button>
+          <div>
+            <h3>Никита Евреев</h3>
+            <img src={img3} alt="" />
+          </div>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus tincidunt eget eu, eget commodo condimentum non, fringilla fermentum. Morbi sed enim facilisis metus pretium leo, mauris. In egestas cursus orci dignissim in lectus nulla. </p>
+        </div>
+        <div className='eget'>
+          <div className='sit'>
+            <button></button>
+          <div>
+            <h3>Никита Евреев</h3>
+            <img src={img3} alt="" />
+          </div>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus tincidunt eget eu, eget commodo condimentum non, fringilla fermentum. Morbi sed enim facilisis metus pretium leo, mauris. In egestas cursus orci dignissim in lectus nulla. </p>
+        </div>
+      </div>
+            <button className='sh'>Загрузить еще</button>
+             <div className='log'>
+        <div>
+          <h4>Топ категории</h4>
+          <p>Тексты и переводы</p>
+          <p>Разработка</p>
+          <p>Дизайн</p>
+          <p>Аудио, видео монтаж</p>
+          <p>Соцсети и реклама</p>
+          <p>Бизнес и жизнь</p>
+          <p>SEO и оптимизация</p>
+        </div>
+        <div>
+          <h4>О Проекте</h4>
+          <p>О Нас</p>
+          <p>Как Это Работает</p>
+          <p>Политика Приватности</p>
+          <p>Правила Пользования </p>
+          <p>Пресса о нас</p>
+        </div>
+        <div>
+          <h4>Поддержка</h4>
+          <p>Контакты</p>
+          <p>Политика Безопасности</p>
+          <p>FAQ</p>
+        </div>
+        <div>
+          <h4>Follow</h4>
+        </div>
+      </div>
+        <p className='p'>Copyright @ 2021  |  WorkTap – Worktap.KZ. All Rights Reserved</p>
+
+
     </div>
-
-    <div className='search'>
-      <div className='job'>
-        <p>Departments</p>
-        <img src={ico} alt="" />
-      </div>
-      <div className='job'>
-        <p>Experience</p>
-        <img src={ico} alt="" />
-      </div>
-       <div className='job'>
-        <p>JobType</p>
-        <img src={ico} alt="" />
-      </div>
-       <div className='job'>
-        <p>WorkplaceType</p>
-        <img src={ico} alt="" />
-      </div>
-      <div className='xob'>
-        <input type="text" placeholder='Search by keywords...' />
-      </div>
-    </div>
-
-    <div className='h1'>
-      <h1>Open Positions</h1>
-    </div>
-
-    <div className='web'>
-
-      <div className='cartichka'>
-       <div className='skil'>
-         <img src={icon} alt="" />
-         <h1>Web Designer</h1>
-       </div>
-       <h4>Salary . $45,000 - $60,000 per year</h4>
-       <div className='skill'>
-        <p>Experience . 1+ year</p>
-        <p>Deadline . 30/09/2025</p>
-       </div>
-       <h1>Skills</h1>
-       <p>Proficiency in Adobe Creative Suite (Photoshop, Illustrator, etc.), strong understanding of UI/UX design principles, responsive design expertise.</p>
-       <button>Apply Now</button>
-      </div>
-
-      <div className='cartichka'>
-       <div className='skil'>
-         <img src={icon1} alt="" />
-         <h1>Mobile App Developer</h1>
-       </div>
-       <h4>Salary . $55,000 - $75,000 per year</h4>
-       <div className='skill'>
-        <p>Experience . 2+ year</p>
-        <p>Deadline . 15/10/2025</p>
-       </div>
-       <h1>Skills</h1>
-       <p>Proficiency in iOS or Android development (Swift, Kotlin), knowledge of mobile app design patterns, experience with mobile testing and debugging.</p>
-       <button>Apply Now</button>
-      </div>
-
-      <div className='cartichka'>
-       <div className='skil'>
-         <img src={icon2} alt="" />
-         <h1>Digital Marketing Specialist</h1>
-       </div>
-       <h4>Salary . $50,000 - $65,000 per year</h4>
-       <div className='skill'>
-        <p>Experience . 4+ year</p>
-        <p>Deadline . 20/11/2025</p>
-       </div>
-       <h1>Skills</h1>
-       <p>Proficiency in SEO, SEM, and social media marketing, experience with analytics tools (Google Analytics, etc.), content marketing expertise.</p>
-       <button>Apply Now</button>
-      </div>
-
-      <div className='cartichka'>
-       <div className='skil'>
-         <img src={icon3} alt="" />
-         <h1>Project Manager</h1>
-       </div>
-       <h4>Salary . $60,000 - $80,000 per year</h4>
-       <div className='skill'>
-        <p>Experience . 5+ year</p>
-        <p>Deadline . 05/12/2025</p>
-       </div>
-       <h1>Skills</h1>
-       <p>Strong organizational and communication skills, ability to manage project timelines and resources, experience in Agile project management methodologies.</p>
-       <button>Apply Now</button>
-      </div>
-    </div>
-
-    <div className='get'>
-      <div className='git'>
-        <h1>Ready to discuss</h1>
-        <p>your product needs with <span>Catalyst Analytic</span> experts?</p>
-        <button>Get In Touch</button>
-      </div>
-    </div>
-
-     <div className='after'>
-                    <img src={photo3} alt="" />
-                    <div className='after1'>
-                      <p>Home</p>
-                      <p>Services</p>
-                      <p>Portfolio</p>
-                      <p>About Us</p>
-                      <p>Careers</p>
-                    </div>
-                    <img className='imag' src={pho} alt="" />
-                  </div>
-          
-                  <div className='pi'>
-                    <p>contact@catalystanalytics.io</p>
-                    <p>+1 (469) 712-4672</p>
-                    <p>5511 Parkcrest Dr, Suite 103, Austin, TX 78731</p>
-                    <div>
-                      <p>Privacy Policy   Terms of Service</p>
-                    </div>
-                  </div>
-                  <p className='pp'>© 2025 Catalyst Analytics. All rights reserved.</p>
-    
-
-    </div>    
   )
 }
 
